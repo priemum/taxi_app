@@ -9,4 +9,4 @@ const managerSchema = new mongoose.Schema({
   isActive: { type: Boolean, default: true }
 }, { timestamps: true });
 
-module.exports = mongoose.model('Manager', managerSchema);
+module.exports = mongoose.model('Manager', managerSchema);  
